@@ -1,0 +1,5 @@
+2022.09.06:
+* new: `README.md` readme file
+* new: `changelog.txt` changelog file
+* new: .github/workflows: `andry81-builds.*.yml` workflow scripts
+* new: .github/workflows/amule.*.yml: workflow scripts moved from `andry81/andry81` repo
