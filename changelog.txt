@@ -1,21 +1,6 @@
-2023.07.11:
-* changed: .github/workflows/*.accum-content.yml: reduced schedule times from 3 hours to 6 hours to reduce `maximum retries exceeded` error and reduce GitHub Action pipeline time consumption to avoid hit the limit
-
-2023.07.03:
-* changed: .github/workflows/*.yml: added `ENABLE_REPO_STORE_COMMITS_URL_PRINT_TO_CHANGELOG`/`ENABLE_REPO_STATS_COMMITS_URL_PRINT_TO_CHANGELOG` variables usage
-
-2023.05.26:
-* changed: .github/workflows/*.yml: removed `ENABLE_COMMIT_REFERENCE_URL_PRINT_TO_CHANGELOG` variable because is not possible to make a commit and in the same time save the commit hash in a being committed file
-
-2022.12.11:
-* changed: .github/workflows/*.yml: added `ENABLE_COMMIT_REFERENCE_URL_PRINT_TO_CHANGELOG` variable usage
-
-2022.10.12:
-* new: .github/workflows/*.yml: added `flags` input parameter usage (`ENABLE_PRINT_INITIAL_ENV_INTO_STDOUT=1`)
-* new: .github/workflows/*.yml: added `ENABLE_COMMIT_MESSAGE_WITH_WORKFLOW_RUN_NUMBER=1` environment variable usage
+2024.01.07:
+* changed: .github/workflows: workflows moved to `andry81-builds/actions` repository
 
 2022.09.06:
 * new: `README.md` readme file
 * new: `changelog.txt` changelog file
-* new: .github/workflows: `andry81-builds.*.yml` workflow scripts
-* new: .github/workflows/amule.*.yml: workflow scripts moved from `andry81/andry81` repo
